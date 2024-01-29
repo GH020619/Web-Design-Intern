@@ -118,6 +118,45 @@
   }
 
   #prize .draw {
+    padding-top: calc(1.56vw * var(--bs-var));
     font-size: calc(2.34vw * var(--bs-var));
+  }
+}
+
+@media (min-width:768px) {
+  #prize .title .word p {
+    font-size: calc(2.33vw * var(--bs-var));
+    margin: 0 0 calc(4.83vw * var(--bs-var)) calc(1.33vw * var(--bs-var));
+  }
+
+  #prize .prize-list {
+    /*參考：活動獎品間距更正-平板.jpg  / padding7.29vw + 5.59vw =12.88vw */
+    padding: calc(4.16vw * var(--bs-var)) calc(26.16vw * var(--bs-var));
+    margin-top: 0;
+  }
+
+  #prize .prize-list>:first-child {
+    margin-bottom: 0;
+  }
+
+  #prize .prizeUnit {
+    padding: 0 calc(2.5vw * var(--bs-var));
+  }
+
+  #prize .prizeImage {
+    width: calc(14.75vw * var(--bs-var));
+  }
+
+  #prize .pbk {
+    font-size: calc(1.41vw * var(--bs-var));
+  }
+
+  #prize .prizeName {
+    padding: calc(0.83vw * var(--bs-var)) calc(1.5vw * var(--bs-var));
+  }
+
+  #prize .draw {
+    padding-top: calc(1vw * var(--bs-var));
+    font-size: calc(1.5vw * var(--bs-var));
   }
 }
