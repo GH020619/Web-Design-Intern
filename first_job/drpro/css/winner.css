@@ -123,3 +123,41 @@
     font-size: calc(2.6vw * var(--bs-var));
   }
 }
+
+@media (min-width: 576px){
+  #winner .center-div.col-10 {
+    padding: calc(4.16vw * var(--bs-var)) calc(12.5vw * var(--bs-var));
+  }
+
+  #winner .center-div.col-10 .title {
+    width: calc(14.25vw * var(--bs-var));
+    height: calc(6.16vw * var(--bs-var));
+    margin-bottom: calc(3.33vw * var(--bs-var));
+  }
+
+  #winner .center-div.col-10 .title p {
+    font-size: calc(1.66vw * var(--bs-var));
+  }
+  
+  #winner .table thead tr>:first-child {
+    padding: calc(0.83vw * var(--bs-var)) calc(10.83vw * var(--bs-var));
+  }
+
+  #winner .table thead tr>:nth-child(2) {
+    padding: calc(0.83vw * var(--bs-var)) calc(9.16vw * var(--bs-var));
+  }
+
+  #winner .table thead tr>:nth-child(3) {
+    padding: calc(0.83vw * var(--bs-var)) calc(9.16vw * var(--bs-var));
+  }
+
+  #winner .table tbody tr td {
+    padding: calc(0.83vw * var(--bs-var));
+  }
+
+  #winner .table th,#winner .table td {
+    word-break: break-all;
+    vertical-align: middle;
+    font-size: calc(1.66vw * var(--bs-var));
+  }
+}

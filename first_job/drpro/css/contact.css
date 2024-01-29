@@ -28,7 +28,10 @@
 }
 
 #contact .mlcolor {
-  border-left: 1px solid #88D8D1;
+  border-left: 1px solid;
+  color: #88D8D1;
+  text-align: left;
+  width: 100%;
 }
 
 /* 
@@ -64,5 +67,23 @@
 
   #contact .contact-item {
     padding: calc(1.04vw * var(--bs-var));
+  }
+}
+
+@media (min-width: 768px){
+  #contact p {
+    font-size: calc(1vw * var(--bs-var));
+  }
+
+  #contact .center-div.col-10 {
+    padding: calc(4.16vw * var(--bs-var)) calc(20.41vw * var(--bs-var));
+  }
+
+  #contact .email-wrap {
+    margin-top: calc(0.83vw * var(--bs-var));
+  }
+
+  #contact .contact-item {
+    padding: calc(0.66vw * var(--bs-var)) calc(2.5vw * var(--bs-var));
   }
 }
