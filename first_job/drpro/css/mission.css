@@ -99,6 +99,23 @@
     font-size: calc(2.08vw * var(--bs-var));
   }
 
+  #mission .center-div.col-10 .title {
+    width: calc(22.626vw * var(--bs-var));
+    height: calc(9.63vw * var(--bs-var));
+    margin: auto;
+    margin-bottom: calc(3.82vw * var(--bs-var));
+    padding-top: calc(2.5vw * var(--bs-var));
+    background: center no-repeat url('../img/活動辦法.png');
+    background-size: contain;
+  }
+
+  #mission .center-div.col-10 .title p {
+    font-size: calc(2.60vw * var(--bs-var));
+    color: #fff;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    text-align: center;
+  }
 
   #mission .card .post img {
     width: 100%;

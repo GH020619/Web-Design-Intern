@@ -81,6 +81,16 @@
 }
 
 @media (min-width:576px) {
+  #prize .title .word p {
+    color: #57CCC3;
+    font-size: calc(3.64vw * var(--bs-var));
+    font-weight: bold;
+    text-align: left;
+    margin: 0 0 calc(7.55vw * var(--bs-var)) calc(2.08vw * var(--bs-var));
+    margin-bottom: 0;
+    letter-spacing: 8px;
+  }
+
   #prize .prize-list {
     /*參考：活動獎品間距更正-平板.jpg  / padding7.29vw + 5.59vw =12.88vw */
     padding: calc(6.51vw * var(--bs-var)) calc(12.88vw * var(--bs-var));
