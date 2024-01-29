@@ -85,3 +85,41 @@
   vertical-align: middle;
   font-size: calc(3.47vw * var(--bs-var));
 }
+
+@media (min-width: 576px){
+  #winner .center-div.col-10 {
+    padding: calc(6.51vw * var(--bs-var)) calc(5.72vw * var(--bs-var));
+  }
+
+  #winner .center-div.col-10 .title {
+    width: calc(22.26vw * var(--bs-var));
+    height: calc(9.63vw * var(--bs-var));
+    margin-bottom: calc(5.2vw * var(--bs-var));
+  }
+
+  #winner .center-div.col-10 .title p {
+    font-size: calc(2.60vw * var(--bs-var));
+  }
+  
+  #winner .table thead tr>:first-child {
+    padding: calc(1.04vw * var(--bs-var)) calc(16.27vw * var(--bs-var));
+  }
+
+  #winner .table thead tr>:nth-child(2) {
+    padding: calc(1.04vw * var(--bs-var)) calc(3.12vw * var(--bs-var));
+  }
+
+  #winner .table thead tr>:nth-child(3) {
+    padding: calc(1.04vw * var(--bs-var)) calc(11.58vw * var(--bs-var));
+  }
+
+  #winner .table tbody tr td {
+    padding: calc(1.3vw * var(--bs-var));
+  }
+
+  #winner .table th,#winner .table td {
+    word-break: break-all;
+    vertical-align: middle;
+    font-size: calc(2.6vw * var(--bs-var));
+  }
+}

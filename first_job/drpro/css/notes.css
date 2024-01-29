@@ -27,3 +27,23 @@
 #notes .card p {
   margin-bottom: calc(2.77vw * var(--bs-var));
 }
+
+@media (min-width: 576px){
+  #notes .center-div.col-10 {
+    padding: calc(6.51vw * var(--bs-var)) calc(5.72vw * var(--bs-var));
+  }
+
+  #notes .title .word p {
+    font-size: calc(3.64vw * var(--bs-var));
+    margin: 0 0 calc(3.9vw * var(--bs-var)) calc(2.08vw * var(--bs-var));
+  }
+
+  #notes .card {
+    padding: calc(6.51vw * var(--bs-var));
+    font-size: calc(2.08vw * var(--bs-var));
+  }
+  
+  #notes .card p {
+    margin-bottom: calc(2.08vw * var(--bs-var));
+  }
+}
