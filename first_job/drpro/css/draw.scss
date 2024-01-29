@@ -1,0 +1,20 @@
+﻿
+#draw {
+    .center-div.col-10 {
+        max-width: 900px;
+        margin: auto;
+        color: #505F98;
+        background: #fff
+    }
+
+    .card {
+        box-shadow: 0 2px 6px -2px rgba(0,0,0,.16),0 2px 6px 0 rgba(0,0,0,.12) !important;
+    }
+
+    @media (max-width:991.98px) {
+        .px-5 {
+            padding-left: 16px !important;
+            padding-right: 16px !important;
+        }
+    }
+}

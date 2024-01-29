@@ -1,0 +1,71 @@
+﻿
+#winner {
+    .center-div.col-10 {
+        max-width: 900px;
+        margin: auto;
+        background: #fff;
+        color: #000000;
+    }
+
+
+    .table {
+        &.table-bordered {
+            border-width: 0 !important;
+        }
+
+        thead {
+            border-width: 0 !important;
+
+            tr {
+                color: #FFF;
+                border-width: 0 !important;
+
+
+                th {
+                    border-width: 0 !important;
+                    background: #EA6170;
+                    padding: 2px;
+                    font-weight: bold;
+
+                    &:first-child {
+                        border-radius: 10px 0 0 10px;
+                    }
+
+                    &:last-child {
+                        border-radius: 0 10px 10px 0;
+                    }
+                }
+            }
+        }
+
+        tbody {
+            border-width: 0 !important;
+
+
+            tr {
+                border-width: 0 !important;
+                border-bottom: 2px solid #88D8D1 !important;
+                background: #EFF2F7;
+
+
+                td {
+                    border-width: 0 !important;
+                }
+            }
+        }
+
+        th,
+        td {
+            word-break: break-all;
+            width: 33.33%;
+        }
+    }
+
+
+    @media (max-width:991.98px) {
+        .px-5 {
+            padding-left: 16px !important;
+            padding-right: 16px !important;
+        }
+    }
+}

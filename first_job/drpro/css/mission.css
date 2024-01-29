@@ -1,0 +1,132 @@
+﻿p {
+  margin-bottom: 0;
+  font-size: calc(2.77vw * var(--bs-var));
+}
+
+#mission .center-div.col-10 {
+  margin: auto;
+  color: #000;
+  background: #fff;
+  padding: calc(8.68vw * var(--bs-var)) 0;
+}
+
+#mission .center-div.col-10 .title {
+  width: calc(29.68vw * var(--bs-var));
+  height: calc(12.84vw * var(--bs-var));
+  margin: auto;
+  margin-bottom: calc(3.82vw * var(--bs-var));
+  padding-top: calc(2.5vw * var(--bs-var));
+  background: center no-repeat url('../img/活動辦法.png');
+  background-size: contain;
+}
+
+#mission .center-div.col-10 .title p {
+  font-size: calc(3.47vw * var(--bs-var));
+  color: #fff;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#mission .bg {
+  background: #FD556D;
+  padding: calc(13.88vw * var(--bs-var)) calc(8.68vw * var(--bs-var));
+}
+
+#mission .card {
+  box-shadow: 0 2px 6px -2px rgba(0, 0, 0, 0.16), 0 2px 6px 0 rgba(0, 0, 0, 0.12) !important;
+}
+
+#mission .card .content {
+  padding: calc(3.99vw * var(--bs-var)) calc(6.94vw * var(--bs-var));
+}
+
+#mission .card .content .sub-title {
+  font-weight: bold;
+  margin-bottom: calc(2.08vw * var(--bs-var));
+}
+
+#mission .card .content .question {
+  margin-bottom: calc(4.86vw * var(--bs-var));
+}
+
+#mission .card p {
+  margin: 0;
+  color: #000;
+}
+
+#mission .card .btn {
+  width: 100%;
+  height: calc(6.59vw * var(--bs-var));
+  margin-top: calc(4.86vw * var(--bs-var));
+  padding: 0;
+  font-size: calc(3.47vw * var(--bs-var));
+  background: #FD556D;
+  border-radius: 99px;
+  color: #fff;
+}
+
+#mission .card .post {
+  max-width: 101%;
+}
+
+#mission .card .post img {
+  width: 100%;
+  /* width: calc(72.04vw * var(--bs-var));
+  height: calc(84.2vw * var(--bs-var)); */
+  object-fit: cover;
+}
+
+#mission .center-div.col-10.bg {
+  background: #FD556D;
+}
+
+#mission .card .content {
+  padding: calc(4vw * var(--bs-var)) calc(6.6vw * var(--bs-var));
+  box-sizing: border-box;
+}
+
+#mission .card .content-title {
+  margin-bottom: calc(1.2vw * var(--bs-var));
+}
+
+#mission .card .content-text {
+  margin-bottom: calc(2.8vw * var(--bs-var));
+}
+
+@media (min-width:576px) {
+  p {
+    font-size: calc(2.08vw * var(--bs-var));
+  }
+
+
+  #mission .card .post img {
+    width: 100%;
+    width: calc(39.71vw * var(--bs-var));
+    height: calc(46.48vw * var(--bs-var));
+  }
+
+  #mission .bg {
+    padding: calc(6.51vw * var(--bs-var)) calc(4.68vw * var(--bs-var));
+  }
+
+  #mission .card .content {
+    padding: calc(5.20vw * var(--bs-var)) calc(1.30vw * var(--bs-var));
+  }
+
+  #mission .card .content .sub-title {
+    font-weight: bold;
+    margin-bottom: calc(1.56vw * var(--bs-var));
+  }
+
+  #mission .card .content .question {
+    margin-bottom: calc(3.64vw * var(--bs-var));
+  }
+
+  #mission .card .btn {
+    height: calc(4.54vw * var(--bs-var));
+    margin-top: calc(3.64vw * var(--bs-var));
+    font-size: calc(2.60vw * var(--bs-var));
+
+  }
+}

@@ -1,0 +1,46 @@
+﻿#introduction {
+    margin-top: 3rem;
+
+    .center-div.col-10 {
+        max-width: 900px;
+        margin: auto;
+        background: #FFFFFF;
+        color: #000000;
+    }
+
+    .owl-carousel {
+        img {
+            height: 500px;
+        }
+
+        .owl-nav {
+            display: flex;
+            justify-content: space-between;
+            top: -280px;
+            position: relative;
+            margin: 0 10px;
+
+            & .owl-prev,
+            & .owl-next {
+                margin: 0 12px;
+                width: 50px;
+                height: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: 2px solid #EA6170;
+                background: #EA6170;
+                border-radius: 50px;
+                font-size: 18px;
+                transition: .5s;
+                color: #fff;
+                box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15) !important;
+
+                &:hover {
+                    color: #FFFFFF;
+                    background: #EA6170;
+                }
+            }
+        }
+    }
+}
