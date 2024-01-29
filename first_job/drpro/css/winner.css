@@ -1,0 +1,87 @@
+﻿#winner .center-div.col-10 {
+  margin: auto;
+  background: #fff;
+  color: #000000;
+  padding: calc(8.68vw * var(--bs-var)) calc(3.99vw * var(--bs-var));
+}
+
+
+#winner .center-div.col-10 .title {
+  width: calc(29.68vw * var(--bs-var));
+  height: calc(12.84vw * var(--bs-var));
+  margin: auto;
+  margin-bottom: calc(3.82vw * var(--bs-var));
+  padding-top: calc(2.5vw * var(--bs-var));
+  background: center no-repeat url('../img/中獎名單.png');
+  background-size: contain;
+}
+
+#winner .center-div.col-10 .title p {
+  font-size: calc(3.47vw * var(--bs-var));
+  color: #fff;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+#winner .table.table-bordered {
+  border-width: 0 !important;
+}
+
+#winner .table thead {
+  border-width: 0 !important;
+}
+
+#winner .table thead tr th {
+  border-width: 0 !important;
+  background: #EA6170;
+  font-weight: bold;
+  color: #FFF;
+  border-width: 0 !important;
+}
+
+
+#winner .table thead tr>:first-child {
+  padding: calc(1.38vw * var(--bs-var)) calc(18.4vw * var(--bs-var));
+}
+
+#winner .table thead tr>:nth-child(2) {
+  padding: calc(1.38vw * var(--bs-var)) calc(1.04vw * var(--bs-var));
+}
+
+#winner .table thead tr>:nth-child(3) {
+  padding: calc(1.38vw * var(--bs-var)) calc(8.68vw * var(--bs-var));
+}
+
+#winner .table thead tr th:first-child {
+  border-radius: 10px 0 0 10px;
+}
+
+#winner .table thead tr th:last-child {
+  border-radius: 0 10px 10px 0;
+}
+
+
+
+#winner .table tbody {
+  border-width: 0 !important;
+}
+
+#winner .table tbody tr {
+  border-width: 0 !important;
+  border-bottom: 2px solid #88D8D1 !important;
+  background: #EFF2F7;
+}
+
+#winner .table tbody tr td {
+  border-width: 0 !important;
+  padding: calc(1.73vw * var(--bs-var));
+}
+
+#winner .table th,
+#winner .table td {
+  word-break: break-all;
+  vertical-align: middle;
+  font-size: calc(3.47vw * var(--bs-var));
+}

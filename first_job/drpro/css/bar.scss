@@ -1,0 +1,60 @@
+﻿#bar {
+    --primary: #103741;
+    --background: #FFFFFF;
+    --white: #fff;
+
+
+    .center-div.col-10 {
+        max-width: 900px;
+        margin: auto;
+        background: var(--background);
+        color: var(--primary);
+    }
+
+    .btnLogin {
+        background: #EA6170;
+        padding: 6px 10px;
+        border-radius: 99px;
+    }
+
+    .fa-user {
+        border: 1px solid var(--white);
+        color: var(--white) !important;
+        border-radius: 99px;
+        padding: 2px 3px;
+        font-size: 10px;
+    }
+
+
+    .login-text {
+        font-size: 10px;
+        font-weight: bold;
+        color: var(--white) !important;
+        letter-spacing: 2px;
+    }
+    /**/
+
+    .nav-link {
+        font-size: 12px;
+        font-weight: bold;
+        color: var(--primary);
+
+        &.active {
+            color: #57CCC3;
+        }
+    }
+
+    .d-lg-flex, .d-lg-none {
+        padding-left: 1.5rem;
+    }
+
+
+    .image-item img {
+        width: 52px
+    }
+
+    .navbar-toggler {
+        color: #000000;
+        border: 1px solid #F4F4F5;
+    }
+}

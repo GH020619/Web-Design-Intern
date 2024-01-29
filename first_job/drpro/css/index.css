@@ -1,0 +1,47 @@
+.col-1,
+.col-10 {
+    box-sizing: border-box;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+:is(#time, #way, #prize-title, #prize, #draw, #receive, #notes) :is(.center-div.col-10) {
+    padding: calc(5vw * var(--bs-var)) calc(10vw * var(--bs-var));
+}
+
+:is(#mission, #winner) .center-div.col-10 {
+    padding: calc(5vw * var(--bs-var)) calc(15vw * var(--bs-var));
+}
+
+
+:is(#way, #draw, #receive, #notes) :is(.card) {
+    padding: calc(4vw * var(--bs-var)) calc(6vw * var(--bs-var));
+}
+
+:is(#time, #way, #prize, #draw, #receive, #notes) :is(.title) {
+    margin: 0 0 calc(4vw * var(--bs-var)) 0;
+}
+
+:is(#winner, #mission-title) .title {
+    margin-bottom: calc(4vw * var(--bs-var));
+}
+
+
+
+/* 活動獎品 */
+
+/* 活動任務 */
+
+
+/* 中獎名單 */
+
+#winner .table thead tr th {
+    padding: calc(.7vw * var(--bs-var)) calc(1vw * var(--bs-var));
+}
+
+#winner .winnerUnit td {
+    padding: calc(1vw * var(--bs-var)) calc(1vw * var(--bs-var));
+}
+
+/* footer */
+

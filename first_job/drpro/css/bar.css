@@ -1,0 +1,79 @@
+﻿#bar {
+  --primary: #103741;
+  --background: #FFFFFF;
+  --white: #fff;
+}
+
+#bar .center-div.col-10 {
+  margin: auto;
+  background: var(--background);
+  color: var(--primary);
+}
+
+#bar .navbar {
+  padding: calc(2.25vw * var(--bs-var)) calc(3.47vw * var(--bs-var));
+}
+
+
+#bar .navbar-brand {
+  margin: 0;
+  padding: 0;
+}
+
+#bar .image-item img {
+  width: calc(8.5vw * var(--bs-var));
+  height: calc(3.81vw * var(--bs-var));
+}
+
+
+#bar .navbar-toggler {
+  color: #000000;
+  border: 1px solid #F4F4F5;
+  padding: calc(1.73vw * var(--bs-var));
+}
+
+#bar .navbar-toggler .fa-bars:before {
+  width: calc(3.99vw * var(--bs-var));
+  height: calc(2.77vw * var(--bs-var));
+}
+
+
+/* 以上手機 */
+
+
+#bar .btnLogin {
+  background: #EA6170;
+  padding: 6px 10px;
+  border-radius: 99px;
+}
+
+#bar .fa-user {
+  border: 1px solid var(--white);
+  color: var(--white) !important;
+  border-radius: 99px;
+  padding: 2px 3px;
+  font-size: 10px;
+}
+
+#bar .login-text {
+  font-size: 10px;
+  font-weight: bold;
+  color: var(--white) !important;
+  letter-spacing: 2px;
+}
+
+#bar .nav-link {
+  font-size: 12px;
+  font-weight: bold;
+  color: var(--primary);
+}
+
+#bar .nav-link.active {
+  color: #57CCC3;
+}
+
+
+
+@media (min-width:576px) {}
+
+@media (min-width:768px) {}

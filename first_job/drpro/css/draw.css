@@ -1,0 +1,29 @@
+﻿#draw .center-div.col-10 {
+  margin: auto;
+  color: #505F98;
+  background: #fff;
+  padding: calc(8.68vw * var(--bs-var)) calc(5.20vw * var(--bs-var));
+}
+
+#draw .title>div {
+  background: left no-repeat url('../img/活動時間.png') #fff;
+  background-size: contain;
+}
+
+#draw .title .word p {
+  color: #57CCC3;
+  font-size: calc(4.86vw * var(--bs-var));
+  font-weight: bold;
+  text-align: left;
+  margin: 0 0 calc(5.2vw * var(--bs-var)) calc(2.77vw * var(--bs-var));
+  letter-spacing: 8px;
+}
+
+#draw .card {
+  padding: calc(6.94vw * var(--bs-var));
+  font-size: calc(2.77vw * var(--bs-var));
+}
+
+#draw .card p {
+  margin-bottom: calc(2.77vw * var(--bs-var));
+}

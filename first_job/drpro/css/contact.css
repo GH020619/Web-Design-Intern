@@ -1,0 +1,46 @@
+﻿#contact p {
+  font-size: calc(2.08vw * var(--bs-var));
+  text-align: left;
+  color: #fff;
+  margin-bottom: 0;
+
+}
+
+#contact .center-div.col-10 {
+  padding: calc(8.68vw * var(--bs-var)) calc(1.8vw * var(--bs-var));
+  ;
+  background: #404040;
+  color: #000;
+}
+
+#contact .container {
+  padding: 0;
+}
+
+#contact .container .row>div {
+  padding: calc(.8vw * var(--bs-var)) calc(3vw * var(--bs-var));
+
+}
+
+
+#contact hr {
+  color: #88D8D1;
+}
+
+#contact .mlcolor {
+  border-left: 1px solid #88D8D1;
+}
+
+/* 
+#contact .tel-wrap {
+  margin-bottom: calc(1vw * var(--bs-var));
+} */
+
+#contact .email-wrap {
+  word-break: break-all;
+  margin-top: calc(1.38vw * var(--bs-var));
+}
+
+#contact .contact-item {
+  padding: calc(1.38vw * var(--bs-var));
+}

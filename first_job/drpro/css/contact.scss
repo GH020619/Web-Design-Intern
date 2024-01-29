@@ -1,0 +1,47 @@
+﻿
+#contact {
+
+    .center-div.col-10 {
+        max-width: 900px;
+        margin: auto;
+        background: #404040;
+        color: #000;
+    }
+
+
+    img.img-fluid {
+        height: 27px;
+        width: 23px;
+        margin-right: 10px;
+        max-width: initial;
+        margin-top: 18px;
+    }
+
+    img.img-fluid-sm {
+        height: 20px;
+    }
+
+    hr {
+        color: #88D8D1;
+    }
+
+
+.mlcolor{
+    border-left: 1px solid #88D8D1;
+}
+    @media (max-width: 991.98px) {
+        .center-div.col-10 {
+            background-color: #404040 !important;
+            padding: 2px 5px;
+        }
+
+        img.img-fluid-sm {
+            height: 10px;
+        }
+
+        .row {
+            padding-left: 20px;
+            padding-right: 0;
+        }
+    }
+}
