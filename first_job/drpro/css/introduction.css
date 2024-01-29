@@ -43,36 +43,16 @@
 }
 @media (min-width:576px) {/*平板*/
   #introduction .owl-carousel .owl-nav .owl-prev,#introduction .owl-carousel .owl-nav .owl-next {
-    margin: 0 12px;
     width: calc(3.25vw * var(--bs-var));
     height: calc(3.25vw * var(--bs-var));
     font-size: calc(3.25vw * var(--bs-var)/2);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid #EA6170;
-    background: #EA6170;
-    border-radius: 50px;
-    transition: 0.5s;
-    color: #fff;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
   }
 }
 
 @media (min-width:768px) {/*電腦*/
   #introduction .owl-carousel .owl-nav .owl-prev,#introduction .owl-carousel .owl-nav .owl-next {
-    margin: 0 12px;
     width: calc(0.83vw * var(--bs-var));
     height: calc(0.83vw * var(--bs-var));
     font-size: calc(0.83vw * var(--bs-var)/2);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid #EA6170;
-    background: #EA6170;
-    border-radius: 50px;
-    transition: 0.5s;
-    color: #fff;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
   }
 }
