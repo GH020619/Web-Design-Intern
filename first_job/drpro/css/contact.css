@@ -38,9 +38,31 @@
 
 #contact .email-wrap {
   word-break: break-all;
-  margin-top: calc(1.38vw * var(--bs-var));
+  margin-top: calc(1.73vw * var(--bs-var));
 }
 
 #contact .contact-item {
   padding: calc(1.38vw * var(--bs-var));
+}
+
+@media (min-width: 576px){
+  #contact p {
+    font-size: calc(1.56vw * var(--bs-var));
+  }
+
+  #contact .center-div.col-10 {
+    padding: calc(6.51vw * var(--bs-var)) calc(4.94vw * var(--bs-var));
+  }
+
+  #contact .container .row>div {
+    padding: calc(1.04vw * var(--bs-var)) calc(3.9vw * var(--bs-var));
+  }
+
+  #contact .email-wrap {
+    margin-top: calc(1.3vw * var(--bs-var));
+  }
+
+  #contact .contact-item {
+    padding: calc(1.04vw * var(--bs-var));
+  }
 }
