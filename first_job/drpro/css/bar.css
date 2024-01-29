@@ -88,12 +88,10 @@
   }
 
   #bar .navbar-toggler {
-    color: #000000;
-    border: 1px solid #F4F4F5;
     padding: calc(1.30vw * var(--bs-var));
   }
 
-  #bar .navbar-toggler .fa-bars:before {/*平板bar的最右邊三條線*/
+  #bar .navbar-toggler .fa-bars:before {
     width: calc(2.99vw * var(--bs-var));
     height: calc(2.08vw * var(--bs-var));
   }
@@ -107,30 +105,24 @@
     padding-right: calc(4.16vw * var(--bs-var));
   }
 
-  #bar .image-item img {/*logo大小*/
+  #bar .image-item img {
     width: calc(4.08vw * var(--bs-var));
     height: calc(1.83vw * var(--bs-var));
   }
 
   #bar .btnLogin {
-    background: #EA6170;
     padding: calc(1.33vw * var(--bs-var));
     padding-bottom: calc(1.08vw * var(--bs-var));
-    border-radius: 99px;
     width: calc(9.33vw * var(--bs-var));
     height: calc(2.91vw * var(--bs-var));
   }
 
   #bar .fa-user {
-    border: 1px solid var(--white);
-    color: var(--white) !important;
-    border-radius: 99px;
     font-size: calc(1.16vw * var(--bs-var));
   }
 
   #bar .login-text {
     font-size: calc(1.16vw * var(--bs-var));
-    color: var(--white) !important;
   }
 
   #bar .nav-link {
