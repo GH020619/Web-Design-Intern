@@ -27,27 +27,37 @@
 @media (min-width:576px) {/*平板*/
 
   #method .center-div.col-10 {
-    margin: auto;
-    color: #505F98;
-    background: #fff;
-    text-align: center;
-    display: flex;
-    justify-content: center;
     padding: calc(6.51vw * var(--bs-var)) calc(38.80vw * var(--bs-var));
   }
 
   #method .center-div.col-10 .title {
     width: calc(22.26vw * var(--bs-var));
     height: calc(9.63vw * var(--bs-var));
-    margin: 0;
     padding-top: calc(2.5vw * var(--bs-var));
-    background: center no-repeat url('../img/活動辦法.png');
-    background-size: contain;
     font-size: calc(2.60vw * var(--bs-var));
   }
   
   #method .center-div.col-10 p {
     font-size: calc(2.60vw * var(--bs-var));
+  }
+
+}
+
+@media (min-width:768px) {/*電腦*/
+
+  #method .center-div.col-10 {
+    padding: calc(4.16vw * var(--bs-var)) calc(42.91vw * var(--bs-var));
+  }
+
+  #method .center-div.col-10 .title {
+    width: calc(14.25vw * var(--bs-var));
+    height: calc(6.16vw * var(--bs-var));
+    padding-top: calc(1.5vw * var(--bs-var));
+    font-size: calc(1.66vw * var(--bs-var));
+  }
+  
+  #method .center-div.col-10 p {
+    font-size: calc(1.66vw * var(--bs-var));
   }
 
 }

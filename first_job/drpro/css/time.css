@@ -58,30 +58,20 @@
 @media (min-width:576px) {/*平板*/
 
   #time .center-div.col-10 {
-    margin: auto;
-    background: #fff;
-    color: #505F98;
     padding: calc(6.51vw * var(--bs-var)) calc(5.59vw * var(--bs-var));
   }
 
   #time .title .word p {
-    color: #57CCC3;
     font-size: calc(3.64vw * var(--bs-var));
-    font-weight: bold;
-    text-align: left;
     margin: 0 0 calc(3.9vw * var(--bs-var)) calc(2.08vw * var(--bs-var));
-    letter-spacing: 8px;
   }
 
   #time p {
-    margin: 0;
-    line-height: 28px;
     font-size: calc(2.08vw * var(--bs-var));
   }
 
   #time .card {
     padding: calc(5.46vw * var(--bs-var)) calc(7.81vw * var(--bs-var));
-    box-shadow: 0 2px 6px -2px rgba(0, 0, 0, 0.16), 0 2px 6px 0 rgba(0, 0, 0, 0.12) !important;
   }
 
   #time .card>div {
@@ -95,5 +85,40 @@
   #time .card .num-icon img {
     width: calc(2.60vw * var(--bs-var));
     height: calc(2.60vw * var(--bs-var));
+  }
+}
+
+@media (min-width:768px) {/*電腦*/
+
+  #time .center-div.col-10 {
+    padding: calc(4.16vw * var(--bs-var)) calc(8.33vw * var(--bs-var));
+  }
+
+  #time .title .word p {
+    font-size: calc(2.33vw * var(--bs-var));
+    margin: 0 0 calc(2.5vw * var(--bs-var)) calc(1.33vw * var(--bs-var));
+  }
+
+  #time p {
+    font-size: calc(1.33vw * var(--bs-var));
+  }
+
+  #time .card {
+    padding: calc(3.5vw * var(--bs-var));
+    padding-left: calc(6vw * var(--bs-var));
+    padding-right: calc(5vw * var(--bs-var)); 
+  }
+
+  #time .card>div {
+    margin-bottom: calc(2.5vw * var(--bs-var));
+  }
+
+  #time .card .num-icon {
+    padding-right: calc(0.83vw * var(--bs-var));
+  }  
+
+  #time .card .num-icon img {
+    width: calc(1.66vw * var(--bs-var));
+    height: calc(1.66vw * var(--bs-var));
   }
 }
