@@ -38,7 +38,7 @@
 }
 
 #mission .card .content {
-  padding: calc(3.99vw * var(--bs-var)) calc(6.94vw * var(--bs-var));
+  padding: calc(6.94vw * var(--bs-var)) calc(3.99vw * var(--bs-var));
 }
 
 #mission .card .content .sub-title {
@@ -102,23 +102,15 @@
   #mission .center-div.col-10 .title {
     width: calc(22.626vw * var(--bs-var));
     height: calc(9.63vw * var(--bs-var));
-    margin: auto;
     margin-bottom: calc(3.82vw * var(--bs-var));
     padding-top: calc(2.5vw * var(--bs-var));
-    background: center no-repeat url('../img/活動辦法.png');
-    background-size: contain;
   }
 
   #mission .center-div.col-10 .title p {
     font-size: calc(2.60vw * var(--bs-var));
-    color: #fff;
-    letter-spacing: 0.5px;
-    font-weight: bold;
-    text-align: center;
   }
 
   #mission .card .post img {
-    width: 100%;
     width: calc(39.71vw * var(--bs-var));
     height: calc(46.48vw * var(--bs-var));
   }
@@ -132,7 +124,6 @@
   }
 
   #mission .card .content .sub-title {
-    font-weight: bold;
     margin-bottom: calc(1.56vw * var(--bs-var));
   }
 
@@ -144,6 +135,51 @@
     height: calc(4.54vw * var(--bs-var));
     margin-top: calc(3.64vw * var(--bs-var));
     font-size: calc(2.60vw * var(--bs-var));
+
+  }
+}
+
+@media (min-width:768px) {
+  p {
+    font-size: calc(1.33vw * var(--bs-var));
+  }
+
+  #mission .center-div.col-10 .title {
+    width: calc(14.25vw * var(--bs-var));
+    height: calc(6.16vw * var(--bs-var));
+    margin-bottom: calc(6.33vw * var(--bs-var));
+    padding-top: calc(2.5vw * var(--bs-var));
+  }
+
+  #mission .center-div.col-10 .title p {
+    font-size: calc(1.66vw * var(--bs-var));
+  }
+
+  #mission .card .post img {
+    width: calc(26vw * var(--bs-var));
+    height: calc(30.33vw * var(--bs-var));
+  }
+
+  #mission .bg {
+    padding: calc(4.16vw * var(--bs-var)) calc(13.16vw * var(--bs-var));
+  }
+
+  #mission .card .content {
+    padding: calc(3.33vw * var(--bs-var)) calc(5.5vw * var(--bs-var));
+  }
+
+  #mission .card .content .sub-title {
+    margin-bottom: calc(2.33vw * var(--bs-var));
+  }
+
+  #mission .card .content .question {
+    margin-bottom: calc(1vw * var(--bs-var));
+  }
+
+  #mission .card .btn {
+    height: calc(3.41vw * var(--bs-var));
+    margin-top: calc(2.33vw * var(--bs-var));
+    font-size: calc(1.66vw * var(--bs-var));
 
   }
 }
