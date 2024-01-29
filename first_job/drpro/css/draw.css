@@ -18,7 +18,6 @@
   margin: 0 0 calc(5.2vw * var(--bs-var)) calc(2.77vw * var(--bs-var));
   letter-spacing: 8px;
 }
-
 #draw .card {
   padding: calc(6.94vw * var(--bs-var));
   font-size: calc(2.77vw * var(--bs-var));
@@ -26,4 +25,24 @@
 
 #draw .card p {
   margin-bottom: calc(2.77vw * var(--bs-var));
+}
+
+@media (min-width: 576px){
+  #draw .center-div.col-10 {
+    padding: calc(6.51vw * var(--bs-var)) calc(5.72vw * var(--bs-var));
+  }
+
+  #draw .title .word p {
+    font-size: calc(3.64vw * var(--bs-var));
+    margin: 0 0 calc(3.9vw * var(--bs-var)) calc(2.08vw * var(--bs-var));
+  }
+
+  #draw .card {
+    padding: calc(6.51vw * var(--bs-var));
+    font-size: calc(2.08vw * var(--bs-var));
+  }
+  
+  #draw .card p {
+    margin-bottom: calc(2.08vw * var(--bs-var));
+  }
 }
