@@ -81,6 +81,10 @@
 }
 
 @media (min-width:576px) {
+  #prize .title {
+    margin-left: calc(5.59vw * var(--bs-var));
+  }
+
   #prize .title .word p {
     color: #57CCC3;
     font-size: calc(3.64vw * var(--bs-var));
@@ -92,7 +96,6 @@
   }
 
   #prize .prize-list {
-    /*參考：活動獎品間距更正-平板.jpg  / padding7.29vw + 5.59vw =12.88vw */
     padding: calc(6.51vw * var(--bs-var)) calc(12.88vw * var(--bs-var));
     margin-top: 0;
   }
@@ -124,13 +127,15 @@
 }
 
 @media (min-width:768px) {
+  #prize .title {
+    margin-left: calc(8.33vw * var(--bs-var));
+  }
   #prize .title .word p {
     font-size: calc(2.33vw * var(--bs-var));
     margin: 0 0 calc(4.83vw * var(--bs-var)) calc(1.33vw * var(--bs-var));
   }
 
   #prize .prize-list {
-    /*參考：活動獎品間距更正-平板.jpg  / padding7.29vw + 5.59vw =12.88vw */
     padding: calc(4.16vw * var(--bs-var)) calc(26.16vw * var(--bs-var));
     margin-top: 0;
   }
