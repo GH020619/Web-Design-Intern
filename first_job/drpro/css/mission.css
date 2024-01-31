@@ -99,6 +99,11 @@
     font-size: calc(2.08vw * var(--bs-var));
   }
 
+  #mission .center-div.col-10 {
+    
+    padding: calc(6.51vw * var(--bs-var)) 0;
+  }
+
   #mission .center-div.col-10 .title {
     width: calc(22.626vw * var(--bs-var));
     height: calc(9.63vw * var(--bs-var));
@@ -116,7 +121,7 @@
   }
 
   #mission .bg {
-    padding: calc(6.51vw * var(--bs-var)) calc(4.68vw * var(--bs-var));
+    padding: calc(4.161vw * var(--bs-var)) calc(4.68vw * var(--bs-var));
   }
 
   #mission .card .content {
@@ -144,11 +149,15 @@
     font-size: calc(1.33vw * var(--bs-var));
   }
 
+  #mission .center-div.col-10 {
+    
+    padding: calc(4.16vw * var(--bs-var)) 0;
+  }
   #mission .center-div.col-10 .title {
     width: calc(14.25vw * var(--bs-var));
     height: calc(6.16vw * var(--bs-var));
     margin-bottom: calc(6.33vw * var(--bs-var));
-    padding-top: calc(2.5vw * var(--bs-var));
+    padding-top: calc(1.5vw * var(--bs-var));
   }
 
   #mission .center-div.col-10 .title p {
@@ -169,11 +178,11 @@
   }
 
   #mission .card .content .sub-title {
-    margin-bottom: calc(2.33vw * var(--bs-var));
+    margin-bottom: calc(1vw * var(--bs-var));
   }
 
   #mission .card .content .question {
-    margin-bottom: calc(1vw * var(--bs-var));
+    margin-bottom: calc(2.33vw * var(--bs-var));
   }
 
   #mission .card .btn {
