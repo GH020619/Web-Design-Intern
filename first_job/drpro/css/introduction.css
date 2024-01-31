@@ -51,8 +51,8 @@
 
 @media (min-width:768px) {/*電腦*/
   #introduction .owl-carousel .owl-nav .owl-prev,#introduction .owl-carousel .owl-nav .owl-next {
-    width: calc(0.83vw * var(--bs-var));
-    height: calc(0.83vw * var(--bs-var));
-    font-size: calc(0.83vw * var(--bs-var)/2);
+    width: calc(2.08vw * var(--bs-var));
+    height: calc(2.08vw * var(--bs-var));
+    font-size: calc(2.08vw * var(--bs-var)/2);
   }
 }
