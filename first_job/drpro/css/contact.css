@@ -3,7 +3,6 @@
   text-align: left;
   color: #fff;
   margin-bottom: 0;
-
 }
 
 #contact .center-div.col-10 {
@@ -22,16 +21,16 @@
 
 }
 
+#contact .copy-right p {
+  color: #88D8D1;
+}
 
 #contact hr {
   color: #88D8D1;
 }
 
 #contact .mlcolor {
-  border-left: 1px solid;
-  color: #88D8D1;
-  text-align: left;
-  width: 100%;
+  border-left: 1px solid #88D8D1;
 }
 
 /* 
@@ -41,7 +40,7 @@
 
 #contact .email-wrap {
   word-break: break-all;
-  margin-top: calc(1.73vw * var(--bs-var));
+  margin-top: calc(1.38vw * var(--bs-var));
 }
 
 #contact .contact-item {
@@ -52,21 +51,14 @@
   #contact p {
     font-size: calc(1.56vw * var(--bs-var));
   }
-
   #contact .center-div.col-10 {
     padding: calc(6.51vw * var(--bs-var)) calc(4.94vw * var(--bs-var));
   }
-
-  #contact .container .row>div {
+  #contact .contact-item {
     padding: calc(1.04vw * var(--bs-var)) calc(3.9vw * var(--bs-var));
   }
-
   #contact .email-wrap {
     margin-top: calc(1.3vw * var(--bs-var));
-  }
-
-  #contact .contact-item {
-    padding: calc(1.04vw * var(--bs-var));
   }
 }
 
@@ -74,16 +66,13 @@
   #contact p {
     font-size: calc(1vw * var(--bs-var));
   }
-
   #contact .center-div.col-10 {
     padding: calc(4.16vw * var(--bs-var)) calc(20.41vw * var(--bs-var));
   }
-
+  #contact .col-md-4 .d-inline-block .mx-aut {
+    padding: calc(0.66vw * var(--bs-var)) calc(2.5vw * var(--bs-var));
+  }
   #contact .email-wrap {
     margin-top: calc(0.83vw * var(--bs-var));
-  }
-
-  #contact .contact-item {
-    padding: calc(0.66vw * var(--bs-var)) calc(2.5vw * var(--bs-var));
   }
 }
