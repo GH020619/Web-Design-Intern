@@ -133,6 +133,7 @@
     width: calc(14.25vw * var(--bs-var));
     height: calc(6.16vw * var(--bs-var));
     margin-bottom: calc(3.33vw * var(--bs-var));
+    padding-top: calc(1.5vw * var(--bs-var));
   }
 
   #winner .center-div.col-10 .title p {
