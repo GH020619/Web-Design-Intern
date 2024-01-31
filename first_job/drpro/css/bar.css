@@ -110,9 +110,10 @@
     height: calc(1.83vw * var(--bs-var));
   }
 
+  #bar .d-none.d-md-flex.align-items-center {
+    padding: calc(1.33vw * var(--bs-var)) calc(1.33vw * var(--bs-var)) calc(1.08vw * var(--bs-var)) calc(1.33vw * var(--bs-var));
+  }
   #bar .btnLogin {
-    padding: calc(1.33vw * var(--bs-var));
-    padding-bottom: calc(1.08vw * var(--bs-var));
     width: calc(9.33vw * var(--bs-var));
     height: calc(2.91vw * var(--bs-var));
   }
